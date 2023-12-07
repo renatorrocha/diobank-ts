@@ -10,7 +10,7 @@ export class CompanyAccount extends DioAccount {
       const balance = this.getBalance() + value
       this.setBalance(balance)
       console.log(
-        `Você pegou um emprestimo de R$${value}, seu saldo total é de R$${balance} `
+        `Você pegou um emprestimo de R$${value}.\nSeu saldo total é de R$${balance} `
       )
     } else {
       console.log('Conta inválida !')
